@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.info{
+    text-align: center;
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.txts{
+    line-height: 34px;
+}
+
+.start{
+    width: 180px;
+    height: 50px;
+    margin-top: 70px;
+    background: floralwhite;
+    font-size: 140%;
+    border: 1px solid black;
+}
+
+.hide{
+    display: none;
+}
+
+.main{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.next{
+    width: 180px;
+    height: 50px;
+    margin-top: 70px;
+    background: floralwhite;
+    font-size: 140%;
+    border: 1px solid black;
+}
+
+.card{
+    width: 73px;
+    height: 100px;
+    margin: 3px 3px 3px 3px;
+    font-size: 170%;
+}
+
+.nextform{
+    text-align: center;
+}
+
+.clear{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#turndisp{
+    margin-top: 20px;
+}
