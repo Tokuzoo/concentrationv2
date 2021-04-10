@@ -74,6 +74,8 @@ $next.addEventListener('click',() => {
     if(num1 === num2){
         $card[pos1].disabled = "true";
         $card[pos2].disabled = "false";
+        music.pause();
+        music.currentTime = 0;
         music.play();
         correctcnt++;
     } else{
