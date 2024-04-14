@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concentration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info" id="info">
+        <h2 class="title">神経衰弱！</h2>
+        <div class="txts">
+            <p>神経衰弱バージョン2を作りました。</p>
+            <p>この前作成した神経衰弱は数が固定されていましたが、今回はランダムに数が生成されるようになりました。</p>
+        </div>
+        <input type="button" id="start" class="start" value="スタート！">
+    </div>
+
+    <div class="main hide" id="main"></div>
+    <div class="nextform">
+        <input type="button" id="next" class="next hide" value="次のターン！">
+    </div>
+    <div class="clear hide" id="clear">
+        <h2>ゲームクリア！</h2>
+        <p id="turndisp"></p>
+    </div>
+
+    <audio src="crap.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
